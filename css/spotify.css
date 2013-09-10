@@ -1,0 +1,37 @@
+.input-spotify input,
+.grid .cell-spotify input {
+	width:100%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.input-spotify input {
+	background: #f4f4f0;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 2px;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,.1);
+	display: block;
+	font-size: 18px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.grid .cell-spotify input {
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,.1);
+    padding:.5em 10px;
+}
+
+.spotify-response {
+	font-size: 0.95em;
+	color: #999;
+}
+.spotify-response p {
+	margin-top: 0.3em;
+}
+.spotify-response.loading {
+	background: url(../img/loader.gif) 0 100% no-repeat;
+	height: 24px;
+}
